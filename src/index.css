@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grid-container {
+  height: 100%;    /* Set the grid container to 100% height */
+}
+/* Importing styles for react-grid-layout and react-resizable */
+@import '~react-grid-layout/css/styles.css';
+@import '~react-resizable/css/styles.css';
+
+/* Additional custom styles can go below */
