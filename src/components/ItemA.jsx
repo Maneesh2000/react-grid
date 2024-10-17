@@ -6,7 +6,7 @@ const ItemA = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 5000); // Simulate a loading time of 3 seconds
+        }, 0); // Simulate a loading time of 3 seconds
 
         return () => clearTimeout(timer);
     }, []);
